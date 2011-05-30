@@ -12,4 +12,4 @@ Para rodar qualquer um dos arquivos que possuem uma função *main* basta compil
 que implementam as classes juntamente com o arquivo principal, incluindo o framework *Foundation* 
 e definindo a linguagem como Objective-C:
 
-`gcc -framework Foundation Animal.m Cat.m Dog.m inheritance.m -o inheritance`
+`gcc -framework Foundation Animal.m Cat.m Dog.m inheritance.m -o inheritance -l objc`
